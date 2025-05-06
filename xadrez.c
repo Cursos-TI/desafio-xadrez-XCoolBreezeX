@@ -31,6 +31,7 @@ int main() {
     int b = 1;
     int r2 = 1;
     int r = 8;
+    int movimentoemL = 1; //Movimento em L do Cavalo
     
     //Mover a Torre 5 casas para a direita
     printf("Torre\n");
@@ -55,6 +56,17 @@ int main() {
         r2++;
 
     } while ( r2 <= r);
+
+    //Mover o Cavalo 2 casas para baixo e 1 para a esquerda
+    printf("Cavalo\n");
+    while (movimentoemL--)
+    {
+        for (int i = 0; i < 2; i++) {
+            printf("Baixo\n");
+        }
+        printf("Esquerda\n");
+    }
+
 
 
 
